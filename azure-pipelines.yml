@@ -5,7 +5,13 @@
 schedules:
 - cron: "*/1 * * * *"
   displayName: Every Minute Build
-
+  branches:
+    include:
+    - master
+    
+    #- releases/*
+    #exclude:
+    #- releases/ancient/*
 
 pool:
   vmImage: 'ubuntu-latest'
