@@ -6,7 +6,7 @@ trigger:
   - master
   
 schedules:
-- cron: '*/1 * * * *'
+- cron: '0 */1 * * *'
 
 
 pool:
