@@ -3,7 +3,6 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-
 trigger:
 - master
 
@@ -12,7 +11,7 @@ trigger:
 #  displayName: Every Minute Build
 #  branches:
 #    include:
-    - master
+#    - master
     
     #- releases/*
     #exclude:
