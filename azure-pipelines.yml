@@ -12,7 +12,7 @@ schedules:
     #- releases/*
     #exclude:
     #- releases/ancient/*
-  always: true
+  # always: true
 pool:
   vmImage: 'ubuntu-latest'
 
