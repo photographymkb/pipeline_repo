@@ -4,13 +4,8 @@
 # https://aka.ms/yaml
 schedules:
 - cron: "*/1 * * * *"
-  displayName: Daily midnight build
-  branches:
-    include:
-    - master
-    - releases/*
-    exclude:
-    - releases/ancient/*
+  displayName: Every Minute Build
+
 
 pool:
   vmImage: 'ubuntu-latest'
