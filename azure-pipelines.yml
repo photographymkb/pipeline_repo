@@ -7,6 +7,7 @@
 trigger:
 - master
 
+
 #schedules:
 #- cron: '*/1 * * * *'
 #  displayName: Every Minute Build
@@ -19,7 +20,7 @@ trigger:
     #- releases/ancient/*
   # always: true
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Default
 
 steps:
 - script: echo Hello, world!
