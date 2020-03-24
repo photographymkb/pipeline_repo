@@ -20,8 +20,8 @@ trigger:
     #- releases/ancient/*
   # always: true
 pool:
-  # name: Default
-  name: Azure Pipelines
+  name: Default
+  # name: Azure Pipelines
 
 steps:
 - script: echo Hello, world!
